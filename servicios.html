@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Servicios y precios | Distrito Barber Medellín</title>
+  <meta name="description" content="Los 20 servicios de Distrito Barber con precio en pesos colombianos: cortes, barba, afeitado, piel, cabello, color y paquetes de cuidado completo.">
+  <meta name="theme-color" content="#0b0b0b">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Servicios y precios | Distrito Barber Medellín">
+  <meta property="og:description" content="Los 20 servicios de Distrito Barber con precio en pesos colombianos: cortes, barba, afeitado, piel, cabello, color y paquetes de cuidado completo.">
+  <meta property="og:image" content="assets/logos/logo-distrito-barber.png">
+  <meta property="og:locale" content="es_CO">
+  <link rel="icon" type="image/png" href="assets/logos/logo-distrito-barber-sm.png">
+  <link rel="preload" as="image" href="assets/logos/logo-distrito-barber-sm.png">
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"BarberShop","name":"Distrito Barber","telephone":"+57 311 323 4989","address":{"@type":"PostalAddress","addressLocality":"Medellín","addressCountry":"CO"}}
+  </script>
+  <script defer src="js/main.js"></script>
+</head>
+<body data-page="servicios">
+  <a class="saltar" href="#contenido">Saltar al contenido</a>
+  <header class="cabecera" id="cabecera">
+    <div class="barra">
+      <a class="marca" href="index.html" aria-label="Distrito Barber, ir al inicio">
+        <span class="logo"><img src="assets/logos/logo-distrito-barber-sm.png" width="80" height="80" alt="Logo de Distrito Barber: escudo dorado y rojo con navaja, brocha y tijeras"></span>
+        <span class="nombre-barberia">Distrito Barber</span>
+      </a>
+      <button class="burger" id="burger" aria-expanded="false" aria-controls="menu" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="menu" id="menu" aria-label="Principal">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="servicios.html" class="activo" aria-current="page">Servicios</a></li>
+          <li><a href="equipo.html">Equipo</a></li>
+          <li><a href="index.html#cita">Pedir cita</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section class="cabecera-pagina">
+      <div class="cp-inner">
+        <div class="titulo-seccion reveal"><p class="eyebrow">Servicios y precios</p><h1>Nuestros servicios</h1><span class="filete" aria-hidden="true"></span><p class="sub">Veinte servicios para tu cabello, tu barba y tu piel. Precios en pesos colombianos.</p></div>
+      </div>
+    </section>
+    <section class="seccion">
+      <div class="filtros" role="group" aria-label="Filtrar servicios por categoría">
+        <button class="filtro activo" data-filtro="todos" aria-pressed="true">Todos</button>
+        <button class="filtro" data-filtro="cortes" aria-pressed="false">Cortes y peinados</button>
+        <button class="filtro" data-filtro="barba" aria-pressed="false">Barba y afeitado</button>
+        <button class="filtro" data-filtro="rostro" aria-pressed="false">Rostro y piel</button>
+        <button class="filtro" data-filtro="cabello" aria-pressed="false">Color y cuidado capilar</button>
+        <button class="filtro" data-filtro="paquetes" aria-pressed="false">Paquetes y asesoría</button>
+      </div>
+      <p class="contador" id="contador" aria-live="polite">Mostrando 20 de 20 servicios</p>
+      <div class="lista-servicios" id="lista-servicios">
+        <article class="servicio reveal" data-cat="cortes">
+          <div class="foto"><img src="assets/images/equipo-corte-ejecutivo-sm.jpg" width="560" height="695" loading="lazy" alt="Barbero cortando el cabello a un cliente de traje en la barbería"></div>
+          <div class="info">
+            <h3>Corte ejecutivo</h3>
+            <p>Cortes para estilo ejecutivo</p>
+            <div class="fila"><span class="precio">$30.000</span><a class="enlace-cita" href="index.html?servicio=Corte%20ejecutivo#cita">Pedir cita <span aria-hidden="true">→</span></a></div>
+          </div>
+        </article>
+        <article class="servicio reveal" data-cat="cortes">
+          <div class="foto"><img src="assets/images/corte-urbano-sm.jpg" width="560" height="695" loading="lazy" alt="Barbero y cliente posando tras un corte urbano"></div>
+          <div class="info">
+            <h3>Corte urbano</h3>
+            <p>Estilos urbanos</p>
+            <div class="fila"><span class="precio">$28.000</span><a class="enlace-cita" href="index.html?servicio=Corte%20urbano#cita">Pedir cita <span aria-hidden="true">→</span></a></div>
+          </div>
+        </article>
+        <article class="servicio reveal" data-cat="barba">
+          <div class="foto"><img src="assets/images/servicio-3-sm.jpg" width="560" height="695" loading="lazy" alt="Barbero arreglando la barba de un cliente con traje azul"></div>
+          <div class="info">
+            <h3>Arreglo de barba completa</h3>
+            <p>Servicios para barba completa</p>
+            <div class="fila"><span class="precio">$22.000</span><a class="enlace-cita" href="index.html?servicio=Arreglo%20de%20barba%20completa#cita">Pedir cita <span aria-hidden="true">→</span></a></div>
+          </div>
+        </article>
+        <article class="servicio reveal" data-cat="barba">
+          <div class="foto"><img src="assets/images/servicio-4-sm.jpg" width="560" height="695" loading="lazy" alt="Barbero perfilando la barba corta de un cliente"></div>
+          <div class="info">
+            <h3>Perfilado de barba corta</h3>
+            <p>Arreglo de barba corta</p>
+            <div class="fila"><span class="precio">$18.000</span><a class="enlace-cita" href="index.html?servicio=Perfilado%20de%20barba%20corta#cita">Pedir cita <span aria-hidden="true">→</span></a></div>
+          </div>
+        </article>
+        <article class="servicio reveal" data-cat="barba">
+          <div class="foto"><img src="assets/images/servicio-5-sm.jpg" width="560" height="695" loading="lazy" alt="Cliente con capa blanca y toalla en el cuello durante un afeitado"></div>
+          <div class="info">
+            <h3>Afeitado premium</h3>
+            <p>Servicios de afeitado premium</p>
+            <div class="fila"><span class="precio">$25.000</span><a class="enlace-cita" href="index.html?servicio=Afeitado%20premium#cita">Pedir cita <span aria-hidden="true">→</span></a></div>
+          </div>
+        </article>
+        <article class="servicio reveal" data-cat="rostro">
+          <div class="foto"><img src="assets/images/servicio-6-sm.jpg" width="560" height="695" loading="lazy" alt="Cliente con capa blanca recibiendo un cuidado para la piel"></div>
+          <div class="info">
+            <h3>Tratamiento para piel</h3>
+            <p>Tratamientos para la piel</p>
+            <div class="fila"><span class="precio">$35.000</span><a class="enlace-cita" href="index.html?servicio=Tratamiento%20para%20piel#cita">Pedir cita <span aria-hidden="true">→</span></a></div>
+          </div>
+        </article>
+        <article class="servicio reveal" data-cat="cabello">
+          <div class="foto"><img src="assets/images/servicio-7-sm.jpg" width="560" height="695" loading="lazy" alt="Barbero aplicando un producto nutritivo a un cliente"></div>
+          <div class="info">
+            <h3>Nutrición capilar</h3>
+            <p>Nutrición para el cabello</p>
+            <div class="fila"><span class="precio">$40.000</span><a class="enlace-cita" href="index.html?servicio=Nutrición%20capilar#cita">Pedir cita <span aria-hidden="true">→</span></a></div>
+          </div>
+        </article>
+        <article class="servicio reveal" data-cat="cabello">
+          <div class="foto"><img src="assets/images/servicio-8-sm.jpg" width="560" height="695" loading="lazy" alt="Barbero con producto de color junto a un cliente con chaqueta verde"></div>
+          <div class="info">
+            <h3>Coloración avanzada</h3>
+            <p>Técnicas avanzadas de color</p>
+            <div class="fila"><span class="precio">$75.000</span><a class="enlace-cita" href="index.html?servicio=Coloración%20avanzada#cita">Pedir cita <span aria-hidden="true">→</span></a></div>
+          </div>
+        </article>
+        <article class="servicio reveal" data-cat="cortes">
+          <div class="foto"><img src="assets/images/servicio-9-sm.jpg" width="560" height="695" loading="lazy" alt="Cliente con peinado casual junto a su barbero"></div>
+          <div class="info">
+            <h3>Peinado casual</h3>
+            <p>Peinados para ocasiones casuales</p>
+            <div class="fila"><span class="precio">$20.000</span><a class="enlace-cita" href="index.html?servicio=Peinado%20casual#cita">Pedir cita <span aria-hidden="true">→</span></a></div>
+          </div>
+        </article>
+        <article class="servicio reveal" data-cat="cortes">
+          <div class="foto"><img src="assets/images/servicio-10-sm.jpg" width="560" height="695" loading="lazy" alt="Cliente joven con gorra junto al barbero"></div>
+          <div class="info">
+            <h3>Corte juvenil</h3>
+            <p>Cortes para jóvenes</p>
+            <div class="fila"><span class="precio">$22.000</span><a class="enlace-cita" href="index.html?servicio=Corte%20juvenil#cita">Pedir cita <span aria-hidden="true">→</span></a></div>
+          </div>
+        </article>
+        <article class="servicio reveal" data-cat="cortes">
+          <div class="foto"><img src="assets/images/servicio-11-sm.jpg" width="560" height="695" loading="lazy" alt="Cliente joven con diseño de cabello y barbero con productos"></div>
+          <div class="info">
+            <h3>Diseño personalizado de cabello</h3>
+            <p>Diseños personalizados</p>
+            <div class="fila"><span class="precio">$30.000</span><a class="enlace-cita" href="index.html?servicio=Diseño%20personalizado%20de%20cabello#cita">Pedir cita <span aria-hidden="true">→</span></a></div>
+          </div>
+        </article>
+        <article class="servicio reveal" data-cat="rostro">
+          <div class="foto"><img src="assets/images/servicio-12-sm.jpg" width="560" height="695" loading="lazy" alt="Cliente con capa blanca durante una limpieza facial"></div>
+          <div class="info">
+            <h3>Limpieza especializada facial</h3>
+            <p>Limpieza especializada del rostro</p>
+            <div class="fila"><span class="precio">$50.000</span><a class="enlace-cita" href="index.html?servicio=Limpieza%20especializada%20facial#cita">Pedir cita <span aria-hidden="true">→</span></a></div>
+          </div>
+        </article>
+        <article class="servicio reveal" data-cat="rostro">
+          <div class="foto"><img src="assets/images/servicio-13-sm.jpg" width="560" height="695" loading="lazy" alt="Cliente con capa blanca durante un tratamiento facial"></div>
+          <div class="info">
+            <h3>Tratamiento facial completo</h3>
+            <p>Tratamientos para el rostro</p>
+            <div class="fila"><span class="precio">$55.000</span><a class="enlace-cita" href="index.html?servicio=Tratamiento%20facial%20completo#cita">Pedir cita <span aria-hidden="true">→</span></a></div>
+          </div>
+        </article>
+        <article class="servicio reveal" data-cat="cabello">
+          <div class="foto"><img src="assets/images/servicio-14-sm.jpg" width="560" height="695" loading="lazy" alt="Barbero junto a un cliente con toalla durante una hidratación capilar"></div>
+          <div class="info">
+            <h3>Hidratación profunda capilar</h3>
+            <p>Hidratación intensiva</p>
+            <div class="fila"><span class="precio">$45.000</span><a class="enlace-cita" href="index.html?servicio=Hidratación%20profunda%20capilar#cita">Pedir cita <span aria-hidden="true">→</span></a></div>
+          </div>
+        </article>
+        <article class="servicio reveal" data-cat="cabello">
+          <div class="foto"><img src="assets/images/servicio-14-sm.jpg" width="560" height="695" loading="lazy" alt="Barbero junto a un cliente durante una reparación capilar"></div>
+          <div class="info">
+            <h3>Reparación capilar</h3>
+            <p>Reparación del cabello</p>
+            <div class="fila"><span class="precio">$60.000</span><a class="enlace-cita" href="index.html?servicio=Reparación%20capilar#cita">Pedir cita <span aria-hidden="true">→</span></a></div>
+          </div>
+        </article>
+        <article class="servicio reveal" data-cat="cortes">
+          <div class="foto"><img src="assets/images/corte-urbano-sm.jpg" width="560" height="695" loading="lazy" alt="Barbero y cliente tras un estilo con ondas"></div>
+          <div class="info">
+            <h3>Ondas naturales</h3>
+            <p>Estilos con ondas</p>
+            <div class="fila"><span class="precio">$65.000</span><a class="enlace-cita" href="index.html?servicio=Ondas%20naturales#cita">Pedir cita <span aria-hidden="true">→</span></a></div>
+          </div>
+        </article>
+        <article class="servicio reveal" data-cat="paquetes">
+          <div class="foto"><img src="assets/images/servicio-3-sm.jpg" width="560" height="695" loading="lazy" alt="Cliente de traje recibiendo un cuidado completo"></div>
+          <div class="info">
+            <h3>Paquete de cuidado completo</h3>
+            <p>Combinación de varios servicios</p>
+            <div class="fila"><span class="precio">$90.000</span><a class="enlace-cita" href="index.html?servicio=Paquete%20de%20cuidado%20completo#cita">Pedir cita <span aria-hidden="true">→</span></a></div>
+          </div>
+        </article>
+        <article class="servicio reveal" data-cat="cabello">
+          <div class="foto"><img src="assets/images/servicio-4-sm.jpg" width="560" height="695" loading="lazy" alt="Cliente durante un lavado especializado"></div>
+          <div class="info">
+            <h3>Lavado especializado</h3>
+            <p>Lavados especializados</p>
+            <div class="fila"><span class="precio">$15.000</span><a class="enlace-cita" href="index.html?servicio=Lavado%20especializado#cita">Pedir cita <span aria-hidden="true">→</span></a></div>
+          </div>
+        </article>
+        <article class="servicio reveal" data-cat="rostro">
+          <div class="foto"><img src="assets/images/servicio-6-sm.jpg" width="560" height="695" loading="lazy" alt="Cliente con capa blanca durante una depilación facial"></div>
+          <div class="info">
+            <h3>Depilación avanzada facial</h3>
+            <p>Servicios de depilación</p>
+            <div class="fila"><span class="precio">$20.000</span><a class="enlace-cita" href="index.html?servicio=Depilación%20avanzada%20facial#cita">Pedir cita <span aria-hidden="true">→</span></a></div>
+          </div>
+        </article>
+        <article class="servicio reveal" data-cat="paquetes">
+          <div class="foto"><img src="assets/images/servicio-5-sm.jpg" width="560" height="695" loading="lazy" alt="Barbero asesorando a un cliente sobre su imagen"></div>
+          <div class="info">
+            <h3>Consultoría de imagen personal</h3>
+            <p>Consultoría de imagen personal</p>
+            <div class="fila"><span class="precio">$45.000</span><a class="enlace-cita" href="index.html?servicio=Consultoría%20de%20imagen%20personal#cita">Pedir cita <span aria-hidden="true">→</span></a></div>
+          </div>
+        </article>
+      </div>
+      <p class="vacio" id="vacio" hidden>No hay servicios en esta categoría.</p>
+      <div class="cta-banda reveal">
+        <h2>¿Listo para tu próximo corte?</h2>
+        <p>Pide tu cita por formulario o por WhatsApp.</p>
+        <a class="boton" href="index.html#cita">Pedir cita</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="pie">
+    <div class="pie-grid">
+      <div>
+        <p class="pie-marca">Distrito Barber</p>
+        <p>Servicio de excelencia · Medellín</p>
+        <p class="pendiente">Calle 49 # 41 - 9 (barrio La Candelaria, diagonal a las Torres de Bomboná) Lunes a Sabado de 8:00 am a 8:00 pm.</p>
+      </div>
+      <nav aria-label="Pie de página">
+        <a href="index.html">Inicio</a><a href="servicios.html">Servicios</a><a href="equipo.html">Equipo</a><a href="index.html#cita">Pedir cita</a>
+      </nav>
+      <div>
+        <a class="boton boton-whatsapp boton-sm" href="https://wa.me/573113234989?text=Hola%2C%20quiero%20pedir%20una%20cita%20en%20Distrito%20Barber" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.6.8-.8 1-.3.2-.5.1a6.700 6.700 0 0 1-3.300-2.900c-.2-.4.2-.4.700-1.300.1-.2 0-.3 0-.4l-.8-1.800c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.200 5.200 5.200 0 0 0 1.100 2.800 11.900 11.900 0 0 0 4.600 4c1.700.7 2.400.8 3.200.7a2.700 2.700 0 0 0 1.800-1.300 2.200 2.200 0 0 0 .2-1.300c-.1-.1-.3-.2-.5-.3Z"/></svg>311 323 4989</a>
+      </div>
+    </div>
+    <p class="copy">&copy; 2026 <span>Distrito Barber</span> · Todos los derechos reservados</p>
+  </footer>
+
+  <a class="wa-flotante" href="https://wa.me/573113234989?text=Hola%2C%20quiero%20pedir%20una%20cita%20en%20Distrito%20Barber" target="_blank" rel="noopener" aria-label="Escribir por WhatsApp a Distrito Barber"><svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.6.8-.8 1-.3.2-.5.1a6.700 6.700 0 0 1-3.300-2.900c-.2-.4.2-.4.700-1.300.1-.2 0-.3 0-.4l-.8-1.800c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.200 5.200 5.200 0 0 0 1.100 2.800 11.900 11.900 0 0 0 4.600 4c1.700.7 2.400.8 3.200.7a2.700 2.700 0 0 0 1.800-1.300 2.200 2.200 0 0 0 .2-1.300c-.1-.1-.3-.2-.5-.3Z"/></svg></a>
+  <button class="subir" id="subir" aria-label="Volver al inicio de la página" hidden>
+    <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 15 6-6 6 6"/></svg>
+  </button>
+</body>
+</html>
